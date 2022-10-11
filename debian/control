@@ -1,0 +1,33 @@
+Source: libpackage-deprecationmanager-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>,
+           gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl (>= 5.19.5),
+                     libpackage-stash-perl,
+                     libparams-util-perl,
+                     libsub-install-perl,
+                     libsub-name-perl,
+                     libtest-fatal-perl,
+                     libtest-warnings-perl
+Standards-Version: 3.9.8
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libpackage-deprecationmanager-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libpackage-deprecationmanager-perl.git
+Homepage: https://metacpan.org/release/Package-DeprecationManager
+
+Package: libpackage-deprecationmanager-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         perl (>= 5.19.5),
+         libpackage-stash-perl,
+         libparams-util-perl,
+         libsub-install-perl,
+         libsub-name-perl
+Description: module for managing deprecation warnings for Perl distributions
+ Package::DeprecationManager allows you to manage a set of deprecations for
+ one or more modules. It will issue one warning per deprecated feature used,
+ optionally with regard to an -api_version specified by users of your module.

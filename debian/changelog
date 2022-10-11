@@ -1,0 +1,136 @@
+libpackage-deprecationmanager-perl (0.17-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 00:53:41 +0100
+
+libpackage-deprecationmanager-perl (0.17-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: change GitHub/CPAN URL(s) to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+
+  [ Lucas Kanashiro ]
+  * Import upstream version 0.17
+  * Declare compliance with Debian policy 3.9.8
+  * debian/control: remove dependency on libnamespace-autoclean-perl
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Sun, 03 Jul 2016 11:48:09 -0300
+
+libpackage-deprecationmanager-perl (0.16-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ Lucas Kanashiro ]
+  * Import upstream version 0.16
+  * Add debian/docs with new CONTRIBUTING.md file
+  * Update years of upstream copyright
+  * Update Debian packaging copyright
+  * debian/control: update build and runtime dependencies:
+    - Add libnamespace-autoclean-perl and libsub-name-perl
+  * Declare compliance with Debian policy 3.9.7
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sun, 27 Mar 2016 12:16:20 -0300
+
+libpackage-deprecationmanager-perl (0.15-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.15
+  * Bump debhelper compatibility level to 9
+  * Update build and runtime dependencies
+
+ -- Lucas Kanashiro <kanashiro.duarte@gmail.com>  Sat, 14 Nov 2015 12:11:53 -0200
+
+libpackage-deprecationmanager-perl (0.14-1) unstable; urgency=low
+
+  * Team upload
+
+  [ gregor herrmann ]
+  * debian/control: update {versioned,alternative} (build) dependencies.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Florian Schlichting ]
+  * Add debian/upstream/metadata
+  * Import upstream version 0.14
+  * Update copyright year
+  * Substitute (build-)dependency on List::MoreUtils with List::Util 1.33 in
+    Perl 5.19.5
+  * Declare compliance with Debian Policy 3.9.6
+  * Mark package autopkgtest-able
+  * Extend long description a bit
+
+ -- Florian Schlichting <fsfs@debian.org>  Mon, 14 Sep 2015 23:04:08 +0200
+
+libpackage-deprecationmanager-perl (0.13-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+  * debian/copyright: update to Copyright-Format 1.0.
+  * Bump Standards-Version to 3.9.3 (no changes).
+  * Set debhelper compatibility level to 8.
+  * Improve short description.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 19 Mar 2012 21:24:21 +0100
+
+libpackage-deprecationmanager-perl (0.11-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: Update years of copyright.
+  * debian/control: Bump Standards-Version to 3.9.2 (no changes).
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Tue, 21 Jun 2011 18:50:08 +0200
+
+libpackage-deprecationmanager-perl (0.10-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Build-depend on libtest-fatal-perl instead of
+    libtest-exception-perl.
+
+  [ gregor herrmann ]
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 12 Nov 2010 23:37:03 +0100
+
+libpackage-deprecationmanager-perl (0.08-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build-dep on libtest-output-perl (>= 0.16) instead of libtest-warn-perl.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sat, 16 Oct 2010 21:23:41 +0200
+
+libpackage-deprecationmanager-perl (0.06-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add build-dep on libtest-requires-perl, liblist-moreutils-perl.
+  * debian/copyright: Refer to "Debian systems" instead of "Debian GNU/Linux
+    systems"; refer to /usr/share/common-licenses/GPL-1.
+  * Bump Standards-Version to 3.9.1.
+  * Update my email address.
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Fri, 15 Oct 2010 12:49:18 +0200
+
+libpackage-deprecationmanager-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #590324)
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Mon, 26 Jul 2010 07:13:57 +0900

@@ -1,0 +1,8 @@
+---
+Archive: CPAN
+Bug-Database: https://rt.cpan.org/Public/Dist/Display.html?Name=Package-DeprecationManager
+Bug-Submit: bug-package-deprecationmanager@rt.cpan.org
+Contact: Dave Rolsky <autarch@urth.org>
+Name: Package-DeprecationManager
+Repository: https://github.com/moose/Package-DeprecationManager.git
+Repository-Browse: https://github.com/moose/Package-DeprecationManager

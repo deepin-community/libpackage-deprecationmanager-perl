@@ -1,0 +1,2 @@
+# needs to be use'd with a hash containing the deprecated features and versions
+/usr/share/pkg-perl-autopkgtest/runtime-deps.d/use.t
